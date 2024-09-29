@@ -1,0 +1,92 @@
+
+body{
+  
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  background-color: white;
+  height: 2000px;
+}
+header {
+    height: 100px;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 100px;
+    margin-left: -8px;
+}
+  .nav1{
+    display: flex;
+    justify-content: center;
+  }
+  .nav1 .logo1 {
+    width: 90px;
+    margin-left: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .nav1 .logo {
+      width: 60px;
+    }
+  }
+  .nav1 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .titulo{
+    margin-left: 50px;
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+  }
+
+  
+  .titulo2{
+    color: black;
+  }
+  .sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+  }
+  .text1{
+    width: 800px;
+    height: auto;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 768px) {
+   .text1{
+    font-size: 16px;
+    width: 287px;
+    height: auto;
+    text-align: center;
+   }    
+  }
+.sec2{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+    
+}
+
+.carrusel{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.elemento{
+  flex: 1 0 auto;
+  margin: 0 10px;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.imgcar{
+  width: 200px;
+  height: 200px;
+}
